@@ -31,8 +31,8 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - - name: Build project
-          run: npx vite build --base=/bibliografia-boletin/
+      - name: Build project
+        run: npx vite build --base=/bibliografia-boletin/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
