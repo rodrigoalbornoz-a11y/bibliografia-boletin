@@ -1,0 +1,6 @@
+{
+  "name": "Boletín Mensual de Lectura: Especial Terror y Suspenso",
+  "description": "Boletín interactivo y moderno para la biblioteca digital sobre temática de Terror, Suspenso y Fantasía, optimizado para Google Sites.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
