@@ -19,7 +19,7 @@ export const BOOKS_DATA: Book[] = [
     tags: ['Marvel Comics', 'Terror Político', 'Pop Culture', 'OverDrive'],
     themeColor: 'cyan',
     posterGradient: 'from-cyan-950/90 via-[#15181E] to-[#0D0F12]',
-    coverImage: '/src/assets/images/poster_cinema_slasher_1793895762208.jpg',
+    coverImage: import.meta.env.BASE_URL + 'src/assets/images/poster_cinema_slasher_1793895762208.jpg',
   },
   {
     id: '2',
@@ -39,7 +39,7 @@ export const BOOKS_DATA: Book[] = [
     tags: ['Folk Horror', 'Bosque Siniestro', 'BookTok 2025', 'OverDrive'],
     themeColor: 'red',
     posterGradient: 'from-rose-950/90 via-[#15181E] to-[#0D0F12]',
-    coverImage: '/src/assets/images/poster_dark_forest_1793895761027.jpg',
+    coverImage: import.meta.env.BASE_URL + 'src/assets/images/poster_dark_forest_1793895761027.jpg',
   },
   {
     id: '3',
@@ -59,7 +59,7 @@ export const BOOKS_DATA: Book[] = [
     tags: ['Fantasmas', 'Gótico Moderno', 'Relatos Cortos', 'OverDrive'],
     themeColor: 'cyan',
     posterGradient: 'from-cyan-950/80 via-[#15181E] to-[#0D0F12]',
-    coverImage: '/src/assets/images/poster_haunted_ghosts_1793895761733.jpg',
+    coverImage: import.meta.env.BASE_URL + 'src/assets/images/poster_haunted_ghosts_1793895761733.jpg',
   },
   {
     id: '4',
@@ -79,7 +79,7 @@ export const BOOKS_DATA: Book[] = [
     tags: ['Hora Muerta', 'Relatos Criollos', 'Ocultismo', 'eLibro'],
     themeColor: 'red',
     posterGradient: 'from-red-950/90 via-[#15181E] to-[#0D0F12]',
-    coverImage: '/src/assets/images/poster_bloody_telekinetic_1793895760581.jpg',
+    coverImage: import.meta.env.BASE_URL + 'src/assets/images/poster_bloody_telekinetic_1793895760581.jpg',
   },
   {
     id: '5',
@@ -99,7 +99,7 @@ export const BOOKS_DATA: Book[] = [
     tags: ['Cinefilia', 'A24 Vibe', 'Ensayo Visual', 'eLibro'],
     themeColor: 'cyan',
     posterGradient: 'from-cyan-950/80 via-[#15181E] to-[#0D0F12]',
-    coverImage: '/src/assets/images/poster_cinema_slasher_1793895762208.jpg',
+    coverImage: import.meta.env.BASE_URL + 'src/assets/images/poster_cinema_slasher_1793895762208.jpg',
   },
   {
     id: '6',
@@ -119,7 +119,7 @@ export const BOOKS_DATA: Book[] = [
     tags: ['J-Horror', 'Y2K Nostalgia', 'Found Footage', 'eLibro'],
     themeColor: 'red',
     posterGradient: 'from-rose-950/80 via-[#15181E] to-[#0D0F12]',
-    coverImage: '/src/assets/images/poster_cinema_slasher_1793895762208.jpg',
+    coverImage: import.meta.env.BASE_URL + 'src/assets/images/poster_cinema_slasher_1793895762208.jpg',
   },
   {
     id: '7',
@@ -139,7 +139,7 @@ export const BOOKS_DATA: Book[] = [
     tags: ['Slasher', 'Detrás de Escena', 'Carpenter & Craven', 'eLibro'],
     themeColor: 'cyan',
     posterGradient: 'from-cyan-950/80 via-[#15181E] to-[#0D0F12]',
-    coverImage: '/src/assets/images/poster_cinema_slasher_1793895762208.jpg',
+    coverImage: import.meta.env.BASE_URL + 'src/assets/images/poster_cinema_slasher_1793895762208.jpg',
   },
   {
     id: '8',
@@ -159,7 +159,7 @@ export const BOOKS_DATA: Book[] = [
     tags: ['Whodunit', 'Misterio de Lago', 'Giro Inesperado', 'OverDrive'],
     themeColor: 'cyan',
     posterGradient: 'from-cyan-950/90 via-[#15181E] to-[#0D0F12]',
-    coverImage: '/src/assets/images/poster_haunted_ghosts_1793895761733.jpg',
+    coverImage: import.meta.env.BASE_URL + 'src/assets/images/poster_haunted_ghosts_1793895761733.jpg',
   },
   {
     id: '9',
@@ -179,7 +179,7 @@ export const BOOKS_DATA: Book[] = [
     tags: ['Años 80', 'Posesión', 'BookTok Favorite', 'OverDrive'],
     themeColor: 'red',
     posterGradient: 'from-red-950/90 via-[#15181E] to-[#0D0F12]',
-    coverImage: '/src/assets/images/poster_bloody_telekinetic_1793895760581.jpg',
+    coverImage: import.meta.env.BASE_URL + 'src/assets/images/poster_bloody_telekinetic_1793895760581.jpg',
   },
   {
     id: '10',
@@ -199,7 +199,7 @@ export const BOOKS_DATA: Book[] = [
     tags: ['Posesión Mental', 'Terror Psicológico', 'Adrenalina Pura', 'OverDrive'],
     themeColor: 'red',
     posterGradient: 'from-rose-950/90 via-[#15181E] to-[#0D0F12]',
-    coverImage: '/src/assets/images/poster_bloody_telekinetic_1793895760581.jpg',
+    coverImage: import.meta.env.BASE_URL + 'src/assets/images/poster_bloody_telekinetic_1793895760581.jpg',
   },
   {
     id: '11',
@@ -219,7 +219,7 @@ export const BOOKS_DATA: Book[] = [
     tags: ['Stephen King', 'Telequinesis', 'Clásico Sangriento', 'OverDrive'],
     themeColor: 'red',
     posterGradient: 'from-red-950/90 via-[#15181E] to-[#0D0F12]',
-    coverImage: '/src/assets/images/poster_bloody_telekinetic_1793895760581.jpg',
+    coverImage: import.meta.env.BASE_URL + 'src/assets/images/poster_bloody_telekinetic_1793895760581.jpg',
   },
   {
     id: '12',
@@ -239,6 +239,6 @@ export const BOOKS_DATA: Book[] = [
     tags: ['Literatura Coreana', 'Body Horror', 'Booker Prize', 'OverDrive'],
     themeColor: 'cyan',
     posterGradient: 'from-cyan-950/90 via-[#15181E] to-[#0D0F12]',
-    coverImage: '/src/assets/images/poster_haunted_ghosts_1793895761733.jpg',
+    coverImage: import.meta.env.BASE_URL + 'src/assets/images/poster_haunted_ghosts_1793895761733.jpg',
   },
 ];
